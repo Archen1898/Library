@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+.bookCard{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+#library{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightsalmon;
+    margin: 10px 50px 10px 50px;
+    border: 3px solid darksalmon;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+    <h1>My Library</h1>
+    <p>The purpose of this exercise it is to refine my knowledge of JavaScript objects. Not 
+        concerned with frontend design for this exercise. The goal is to create a simple library,
+        populate it with books, and allow the user to add new books.
+    </p>
+    
+
+    <div id="bookInfo">
+        <h2>Add a Book</h2>
+        <ul>
+            <li>
+                <label for="bookTitle">Book Title</label>
+                <input type="text" id="bookTitle" label="Book Title">
+            </li>
+            <li>
+                <label for="bookAuthor">Book Author</label>
+                <input type="text" id="bookAuthor" label="Book Author">
+            </li>
+            <li>
+                <label for="bookYear">Book Year</label>
+                <input type="text" id="bookYear" label="Book Year">
+            </li>
+            <li>
+                <label for="bookPages">Book Pages</label>
+                <input type="text" id="bookPages" label="Book Pages">
+            </li>
+        </ul>
+    </div>
+    <button id="add">New Book</button>
+    <div id="library"></div>
+    
+    <script src="book.js"></script>
+</body>
+</html>
